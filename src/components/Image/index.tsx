@@ -1,15 +1,15 @@
 import { useEffect, useRef, useState } from "react";
 
 interface ImageProps {
-  lazy: boolean;
-  threshold: number;
+  lazy?: boolean;
+  threshold?: number;
   src: string;
-  block: boolean;
-  placeholder: string;
+  block?: boolean;
+  placeholder?: string;
   width: number | string;
-  height: number | string;
-  alt: string;
-  mode: "cover" | "fill" | "contain";
+  height?: number | string;
+  alt?: string;
+  mode?: "cover" | "fill" | "contain";
   style?: React.CSSProperties;
 }
 
