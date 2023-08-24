@@ -4,10 +4,10 @@ type TagType = "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
 
 export interface HeaderProps {
   children: React.ReactNode;
-  level: number;
-  strong: boolean;
-  underline: boolean;
-  color: string;
+  level?: number;
+  strong?: boolean;
+  underline?: boolean;
+  color?: string;
   style?: React.CSSProperties;
 }
 
