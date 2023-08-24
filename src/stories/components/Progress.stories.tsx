@@ -1,4 +1,4 @@
-import Progress from "../components/Progress";
+import Progress from "../../components/Progress";
 import type { Meta } from "@storybook/react";
 import { useState } from "react";
 

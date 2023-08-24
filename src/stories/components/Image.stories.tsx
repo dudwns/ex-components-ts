@@ -1,4 +1,4 @@
-import Image from "../components/Image";
+import Image from "../../components/Image";
 import type { Meta, StoryObj } from "@storybook/react";
 
 const meta = {

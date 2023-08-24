@@ -1,4 +1,4 @@
-import Skeleton from "../components/Skeleton";
+import Skeleton from "../../components/Skeleton";
 import type { Meta, StoryObj } from "@storybook/react";
 
 const meta = {

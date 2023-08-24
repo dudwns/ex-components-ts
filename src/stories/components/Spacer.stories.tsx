@@ -1,4 +1,4 @@
-import Spacer from "../components/Spacer";
+import Spacer from "../../components/Spacer";
 import type { Meta, StoryObj } from "@storybook/react";
 
 const meta = {

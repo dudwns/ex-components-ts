@@ -1,4 +1,4 @@
-import Flux from "../components/Flux";
+import Flux from "../../components/Flux";
 import type { Meta, StoryObj } from "@storybook/react";
 
 const { Row, Col } = Flux;

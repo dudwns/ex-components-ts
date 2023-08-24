@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import Badge from "../components/Badge";
-import Image from "../components/Image";
+import Badge from "../../components/Badge";
+import Image from "../../components/Image";
 
 const meta = {
   title: "component/Badge",
@@ -18,7 +18,7 @@ type Story = StoryObj<typeof Badge>;
 export const Default: Story = {
   render: (args) => (
     <Badge {...args}>
-      <Image src="https://picsum.photos/60" width={60} style={{ borderRadius: 8 }} />
+      <Image src="https://picsum.photos/60" width={60} styleprop={{ borderRadius: 8 }} />
     </Badge>
   ),
 };

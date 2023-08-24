@@ -1,4 +1,4 @@
-import Upload from "../components/Upload";
+import Upload from "../../components/Upload";
 import type { Meta, StoryObj } from "@storybook/react";
 
 const meta = {
