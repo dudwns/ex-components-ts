@@ -2,16 +2,16 @@ import React from "react";
 import "./Text.css";
 
 export interface TextProps {
-  children: React.ReactNode;
-  size: number | string;
-  block: boolean;
-  paragraph: boolean;
-  delete: boolean;
-  code: boolean;
-  mark: boolean;
-  strong: boolean;
-  color: string;
-  underline: boolean;
+  children?: React.ReactNode;
+  size?: number | string;
+  block?: boolean;
+  paragraph?: boolean;
+  delete?: boolean;
+  code?: boolean;
+  mark?: boolean;
+  strong?: boolean;
+  color?: string;
+  underline?: boolean;
   style?: React.CSSProperties;
 }
 

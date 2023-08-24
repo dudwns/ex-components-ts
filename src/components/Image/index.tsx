@@ -10,7 +10,7 @@ interface ImageProps {
   height?: number | string;
   alt?: string;
   mode?: "cover" | "fill" | "contain";
-  style?: React.CSSProperties;
+  styleprop?: React.CSSProperties;
 }
 
 let observer = null;
@@ -74,7 +74,7 @@ const Image = ({
       ref={imgRef}
       src={loaded ? src : placeholder}
       alt={alt}
-      style={{ ...props.style, ...imageStyle }}
+      style={{ ...props.styleprop, ...imageStyle }}
       {...props}
     />
   );
