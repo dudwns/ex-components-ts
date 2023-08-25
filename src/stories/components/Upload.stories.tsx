@@ -1,5 +1,5 @@
-import Upload from "../../components/Upload";
 import type { Meta, StoryObj } from "@storybook/react";
+import { Upload } from "../../components";
 
 const meta = {
   title: "component/Upload",

@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import useTimeoutFn from "./useTimeoutFn";
+import { useTimeoutFn } from ".";
 
 const useDebounce = (fn: () => void, ms: number, deps: string[]) => {
   const [run, clear] = useTimeoutFn(fn, ms);

@@ -1,5 +1,5 @@
-import Progress from "../../components/Progress";
 import type { Meta } from "@storybook/react";
+import { Progress } from "../../components";
 import { useState } from "react";
 
 const meta = {

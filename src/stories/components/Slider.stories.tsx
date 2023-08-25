@@ -1,7 +1,5 @@
-import Slider from "../../components/Slider";
 import type { Meta, StoryObj } from "@storybook/react";
-import Spacer from "../../components/Spacer";
-import Icon from "../../components/Icon";
+import { Icon, Slider, Spacer } from "../../components";
 
 const meta = {
   title: "Component/Slider",

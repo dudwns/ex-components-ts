@@ -1,4 +1,5 @@
-import useForm, { FormValues } from "../../hooks/useForm";
+import { useForm } from "../../hooks";
+import type { FormValues } from "../../hooks/useForm";
 
 export default {
   title: "Hook/useForm",

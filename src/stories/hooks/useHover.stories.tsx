@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
-import useHover from "../../hooks/useHover";
 import type { Meta } from "@storybook/react";
+import { useHover } from "../../hooks";
 
 const meta = {
   title: "Hook/useHover",
