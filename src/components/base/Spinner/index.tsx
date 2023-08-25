@@ -6,9 +6,9 @@ const Icon = styled.i`
 `;
 
 interface SpinnerProps {
-  size: number;
+  size?: number;
   color?: string;
-  loading: boolean;
+  loading?: boolean;
 }
 
 const Spinner = ({ size = 24, color = "#919EAB", loading = true, ...props }: SpinnerProps) => {
