@@ -6,7 +6,7 @@ interface ImageProps {
   src: string;
   block?: boolean;
   placeholder?: string;
-  width: number | string;
+  width?: number | string;
   height?: number | string;
   alt?: string;
   mode?: "cover" | "fill" | "contain";
